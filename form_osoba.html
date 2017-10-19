@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" /> 
+	<title>Rekrutacja - WipeNation</title>
+	<meta name="description" content="Rekrutacja gildii WipeNation">
+	<meta name="keywords" content="wow,world,warcraft,wipenation,gildia,defias">
+	<meta name="author" content="Rafał Wasik">
+</head>
+
+<body>
+
+	<form method="get" autocomplete="on">
+		Imię:<br>
+			<input type=text name=fname autofocus> Wpisz imię<br>
+		Nazwisko:<br>
+			<input type=text name=lname required> Wpisz nazwisko (wymagane)<br>
+		Miesiąc urodzenia:<br>
+			<input list="miesiace">
+				<datalist id="miesiace">
+					<option value="Styczeń">
+					<option value="Luty">
+					<option value="Marzec">
+					<option value="Kwiecień">
+					<option value="Maj">
+					<option value="Czerwiec">
+					<option value="Lipiec">
+					<option value="Sierpień">
+					<option value="Wrzesień">
+					<option value="Październik">
+					<option value="Listopad">
+					<option value="Grudzień">
+				</datalist>
+			Wybierz miesiąc z listy
+		<br>
+		E-mail: <br>
+			<input type=email name=email required> Wpisz adres e-mail w postaci aaa@bbb.cc (wymagane)<br>
+		Telefon: <br>
+			<input type=tel name=usrtel pattern=[0-9]{9}> Wprowadź 9-cyfrowy numer telefonu<br>
+		
+		<button type="reset" value="Reset">Wyczyść</button>
+		<button type="submit" value="Wyślij">Wyślij</button>
+		
+	</form>
+
+
+
+
+
+
+
+</body>
+
+</html>
