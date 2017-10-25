@@ -35,20 +35,26 @@
 			Wybierz miesiąc z listy
 		<br>
 		E-mail: <br>
-			<input type=email name=email required> Wpisz adres e-mail w postaci aaa@bbb.cc (wymagane)<br>
+			<input type=email name=email required placeholder="aaa@bbb.ccc"> Wpisz adres e-mail (wymagane)<br>
 		Telefon: <br>
-			<input type=tel name=usrtel pattern=[0-9]{9}> Wprowadź 9-cyfrowy numer telefonu<br>
+			<input type=tel name=usrtel pattern=[0-9]{9} placeholder="123456789"> Wprowadź 9-cyfrowy numer telefonu<br>
+			
+		<br>
+		Kolor: <br>
+			<input type="color" name="color"> Wybierz swój ulubiony kolor<br>
+		Miesiąc rozpoczęcia gry: <br>
+			<input type="month" name="startmonth"> <br>
+		Ilość postaci na 110: <br>
+			1 <input type="range" name="postaci" min="1" max="12"> 12 <br>
+		Wyszukaj w Google: <br>
+			<input type="search" name="googlesearch" placeholder="Szukaj"> <br>
+		Link do Wowprogress: <br>
+			<input type="url" name="wppage" placeholder="wowprogress.com/char..."> <br> <br>
 		
 		<button type="reset" value="Reset">Wyczyść</button>
 		<button type="submit" value="Wyślij">Wyślij</button>
 		
 	</form>
-
-
-
-
-
-
 
 </body>
 
