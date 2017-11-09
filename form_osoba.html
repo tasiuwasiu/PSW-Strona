@@ -7,16 +7,22 @@
 	<meta name="description" content="Rekrutacja gildii WipeNation">
 	<meta name="keywords" content="wow,world,warcraft,wipenation,gildia,defias">
 	<meta name="author" content="Rafał Wasik">
+	<link rel="stylesheet" type="text/css" href="form_osoba.css">
 </head>
 
 <body>
 
+	<h1>Formularz dodatkowy dla obecnych członków gildii</h1>
+	
 	<form method="get" autocomplete="on">
 		Imię:<br>
 			<input type=text name=fname autofocus> Wpisz imię<br>
 		Nazwisko:<br>
 			<input type=text name=lname required> Wpisz nazwisko (wymagane)<br>
-		Miesiąc urodzenia:<br>
+		E-mail: <br>
+		<input type=email name=email required placeholder="aaa@bbb.ccc"> Wpisz adres e-mail (wymagane)<br>
+		
+		Miesiąc urodzin:<br>
 			<input list="miesiace">
 				<datalist id="miesiace">
 					<option value="Styczeń">
@@ -34,13 +40,11 @@
 				</datalist>
 			Wybierz miesiąc z listy
 		<br>
-		E-mail: <br>
-			<input type=email name=email required placeholder="aaa@bbb.ccc"> Wpisz adres e-mail (wymagane)<br>
 		Telefon: <br>
 			<input type=tel name=usrtel pattern=[0-9]{9} placeholder="123456789"> Wprowadź 9-cyfrowy numer telefonu<br>
 			
 		<br>
-		Kolor: <br>
+		Preferowany kolor tabardu: <br>
 			<input type="color" name="color"> Wybierz swój ulubiony kolor<br>
 		Miesiąc rozpoczęcia gry: <br>
 			<input type="month" name="startmonth"> <br>

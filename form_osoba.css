@@ -1,0 +1,14 @@
+body {
+	padding-top:10px;
+	margin-left: 20px;
+	background-color: lightblue;
+}
+
+input:required { 
+    border: 1px solid red;
+}
+
+
+input:focus {
+	background-color: yellow;
+}

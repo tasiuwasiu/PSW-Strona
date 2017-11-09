@@ -14,7 +14,7 @@ article {
 }
 
 #tank	{
-	padding: 10ps;
+	padding: 10px;
 	text-align: left;
 	border-style: solid;
 	border-width: 3px;	
@@ -45,6 +45,13 @@ article {
 	border: solid 1px black;
 }
 
-#multi	{
+
+#multi {
 	
 }
+
+#multi td, #multi th {
+	border-bottom: 1px solid gray;
+	
+}
+
