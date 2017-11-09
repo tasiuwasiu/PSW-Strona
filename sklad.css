@@ -1,0 +1,50 @@
+body {
+	background-image: url("bgm.jpg");
+}
+
+article {
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	padding-left:20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	background-color: rgba(255, 255, 255, 0.75);
+}
+
+#tank	{
+	padding: 10ps;
+	text-align: left;
+	border-style: solid;
+	border-width: 3px;	
+}
+
+#tank td,#tank th   {
+	border-style:solid;
+	border-width: 1px;
+}
+
+#tank tr:nth-child(even) {
+	background-color: lightblue;
+}
+
+
+#heal	{
+	width: 540px;
+	border-collapse: collapse;
+	background-color: white;
+}
+
+#heal th{
+	background-color: green;
+	color: white;
+}
+
+#heal tr, #heal td{
+	border: solid 1px black;
+}
+
+#multi	{
+	
+}

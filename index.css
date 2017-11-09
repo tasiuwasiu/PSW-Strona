@@ -1,0 +1,92 @@
+body {
+	background-attachment: fixed;
+	background-image: url("bg.jpg");
+	background-repeat: no-repeat;
+}
+
+footer {
+	font-size: 15px;
+}
+
+details {
+	position:fixed;
+	bottom: 0;
+	right: 0;
+	background-color: white;
+}
+
+section {
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+#logi {
+	right: 0;
+	position: absolute;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 5px;
+	background-color: #A9A9A9;
+	margin-right: 60px;
+}
+
+#mainarticle {
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-top: 40px;
+	padding-bottom: 10px;
+	background-color: rgba(255, 255, 255, 0.75);
+}
+
+#endArt {
+	margin-right: 50px;
+	margin-left: 50px;
+	background-color: rgba(255, 255, 255, 0.75);
+}
+
+#endArt a, #endArt h2{
+	padding-top:20px;
+	margin-left:10px;
+	margin-top: 10px;
+}
+
+#endArt nav{
+	padding-left: 10px;
+}
+
+footer {
+	margin-left: 10px;
+	margin-top: 10px;
+	padding-bottom:20px;
+}
+
+a:hover {
+	font-size: 1.25em;
+}
+
+a:visited {
+	color: black;
+}
+
+a:active {
+	color: white;
+}
+
+@media screen and (max-width: 540px) {
+	#mainarticle {
+		margin-right: 10px;
+		margin-left: 10px;
+		margin-top: 7px;
+	}
+
+	#logi {
+		position: static;
+		border-style: solid;
+		margin-left: 10px;
+	}
+	
+	#endArt {
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+}
