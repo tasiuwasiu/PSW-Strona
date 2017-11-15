@@ -1,5 +1,22 @@
+body {
+	background: lightblue;
+	
+}
+
 #main {
-		margin-left: 10%;
+	margin-left: 10%;
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+
+
+#TOS div{
+	break-inside: avoid-column;
+}
+
+#ANT div{
+	break-inside: avoid-column;
 }
 
 
@@ -43,6 +60,7 @@
 .flex-container div:hover .menu_content {
 	display:block;
 }
+
 #menu_logo {
 	background-color:black;
 	

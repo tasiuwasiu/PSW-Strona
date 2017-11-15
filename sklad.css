@@ -101,6 +101,7 @@ article {
 .flex-container div:hover .menu_content {
 	display:block;
 }
+
 #menu_logo {
 	background-color:black;
 	

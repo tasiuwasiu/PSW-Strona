@@ -63,26 +63,7 @@ details {
 	bottom: 0;
 	right: 0;
 	background-color: white;
-	-webkit-animation: mymove 5s infinite;
-    animation: mymove 5s infinite;
 }
-
-@-webkit-keyframes mymove {
-    0%   {right: 0px;}
-    25%  {right: 25px;}
-	50%  {right: 50px;}
-    75%  {right: 25px;}
-    100% {right: 0px;}
-}
-
-@keyframes mymove {
-    0%   {right: 0px;}
-    25%  {right: 25px;}
-	50%  {right: 50px;}
-    75%  {right: 25px;}
-    100% {right: 0px;}
-}
-
 
 section {
 	margin-left: 20px;
@@ -114,7 +95,6 @@ article {
 	background-color: rgba(255, 255, 255, 0.75);
 }
 
-
 #endArt a, #endArt h2{
 	padding-top:20px;
 	margin-left:10px;
@@ -131,27 +111,8 @@ footer {
 	font-size: 1.25em;
 }
 
-a:visited {
+a {
 	color: black;
-}
-
-#p1	{
-	font-style: italic;
-	font-family: "Times New Roman";
-	font-size: 0.5em;
-}
-
-#p2 {
-	font-family: "Arial";
-	font-weight: bold;
-	font-size: 150%;
-	line-height: 150%;
-}
-
-#p3{
-	font-variant: small-caps;
-	font-size: 15px;
-	line-height: 50%;
 }
 
 @media screen and (max-width: 540px) {
