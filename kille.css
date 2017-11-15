@@ -10,12 +10,12 @@
   left: 0px;
   top: 0px;
   float: left;
-  width: 6%;
+  width: 7%;
   position: fixed;
-  box-shadow: 7px 7px 5px black;
 }
 
 .flex-container div {
+	position:relative;
 	background-color: #f1f1f1;
 	width: 80%;
 	margin: 6px;
@@ -26,12 +26,23 @@
 	border-width: 1px;
 	border-radius: 10px;
 	transition: width 0.5s;
+	transition: font-size 0.2s;
 }
 
 .flex-container div:hover {
-	width: 100%;
+	width: 90%;
+	font-size: 25px;
 }
 
+.menu_content {
+	width:60%;
+	display:none;
+	position: absolute;
+}
+
+.flex-container div:hover .menu_content {
+	display:block;
+}
 #menu_logo {
 	background-color:black;
 	
