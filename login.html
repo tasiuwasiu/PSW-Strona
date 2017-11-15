@@ -36,13 +36,28 @@
 	<div align="center">
 	<form>
 		Login:<br>
-			<input type=text size=40><br><br>
+			<input type=text size=40 autofocus><br><br>
 		Hasło:<br>
-			<input type=text size=40><br><br>
-			<button> ZALOGUJ </button>
+			<input type=text size=40>
+			<br><br>
 	</form>
+	<br><br>
+	<button onclick="login()"> ZALOGUJ </button>
 	</div>
 	</div>
+	
+
+	<script>
+		function login (){
+		var input = document.getElementsByTagName("input");
+		if (input[0].value== "admin" && input[1].value=="admin")
+			{alert("Zalogowano");
+			window.location.href = "index.html";}
+			else
+			{	alert("Błędne dane");}
+		}
+	
+	</script>
 </body>
 	
 </html>
