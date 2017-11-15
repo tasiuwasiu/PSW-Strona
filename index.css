@@ -13,6 +13,7 @@ body {
   float: left;
   width: 6%;
   position: fixed;
+  box-shadow: 7px 7px 5px black;
 }
 
 .flex-container div {
@@ -25,11 +26,20 @@ body {
 	border-style: solid;
 	border-width: 1px;
 	border-radius: 10px;
+	transition: width 0.5s;
+}
+
+.flex-container div:hover {
+	width: 100%;
 }
 
 #menu_logo {
 	background-color:black;
 	
+}
+
+h3	{
+	text-shadow: 1px 1px gray;
 }
 
 footer {
@@ -41,7 +51,27 @@ details {
 	bottom: 0;
 	right: 0;
 	background-color: white;
+	-webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 5s infinite;
 }
+
+@-webkit-keyframes mymove {
+    0%   {right: 0px;}
+    25%  {right: 25px;}
+	50%  {right: 50px;}
+    75%  {right: 25px;}
+    100% {right: 0px;}
+}
+
+
+@keyframes mymove {
+    0%   {right: 0px;}
+    25%  {right: 25px;}
+	50%  {right: 50px;}
+    75%  {right: 25px;}
+    100% {right: 0px;}
+}
+
 
 section {
 	margin-left: 20px;
@@ -55,6 +85,10 @@ section {
 	border-width: 3px;
 	border-radius: 5px;
 	background-color: #A9A9A9;
+	background: -webkit-linear-gradient(lightblue, green); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(lightblue, green); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(lightblue, green); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(lightblue, green);
 	margin-right: 60px;
 }
 

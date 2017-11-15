@@ -55,3 +55,42 @@ article {
 	
 }
 
+
+#main {
+		margin-left: 10%;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  left: 0px;
+  top: 0px;
+  float: left;
+  width: 6%;
+  position: fixed;
+  box-shadow: 7px 7px 5px black;
+}
+
+.flex-container div {
+	background-color: #f1f1f1;
+	width: 80%;
+	margin: 6px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 10px;
+	transition: width 0.5s;
+}
+
+.flex-container div:hover {
+	width: 100%;
+}
+
+#menu_logo {
+	background-color:black;
+	
+}
