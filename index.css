@@ -27,10 +27,12 @@ body {
 	border-width: 1px;
 	border-radius: 10px;
 	transition: width 0.5s;
+	transition: font-size 0.2s;
 }
 
 .flex-container div:hover {
 	width: 100%;
+	font-size: 25px;
 }
 
 #menu_logo {
@@ -51,7 +53,7 @@ details {
 	bottom: 0;
 	right: 0;
 	background-color: white;
-	-webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+	-webkit-animation: mymove 5s infinite;
     animation: mymove 5s infinite;
 }
 
@@ -62,7 +64,6 @@ details {
     75%  {right: 25px;}
     100% {right: 0px;}
 }
-
 
 @keyframes mymove {
     0%   {right: 0px;}
@@ -92,19 +93,13 @@ section {
 	margin-right: 60px;
 }
 
-#mainarticle {
+#main {
 	margin-right: 50px;
 	margin-left: 7%;
 	margin-top: 40px;
-	padding-bottom: 10px;
-	background-color: rgba(255, 255, 255, 0.75);
-	
 }
 
 article {
-	margin-right: 50px;
-	margin-left: 7%;
-	margin-top: 40px;
 	padding-bottom: 10px;
 	background-color: rgba(255, 255, 255, 0.75);
 }
@@ -116,14 +111,10 @@ article {
 	margin-top: 10px;
 }
 
-#endArt nav{
-	padding-left: 10px;
-}
-
 footer {
 	margin-left: 10px;
 	margin-top: 10px;
-	padding-bottom:20px;
+	padding-bottom:10px;
 }
 
 #endArt a:hover {
@@ -132,10 +123,6 @@ footer {
 
 a:visited {
 	color: black;
-}
-
-a:active {
-	color: white;
 }
 
 #p1	{
