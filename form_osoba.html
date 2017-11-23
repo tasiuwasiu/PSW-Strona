@@ -37,11 +37,11 @@
 	
 	<form method="get" autocomplete="on" onsubmit="send()" onreset="clearAlert()">
 		Imię:<br>
-			<input type=text name=fname autofocus> Wpisz imię<br>
+			<input type=text name=fname autofocus onfocus=showHelp() onblur=hideHelp()> Wpisz imię<br>
 		Nazwisko:<br>
-			<input type=text name=lname required> Wpisz nazwisko (wymagane)<br>
+			<input type=text name=lname required onfocus=showHelp() onblur=hideHelp()> Wpisz nazwisko (wymagane)<br>
 		E-mail: <br>
-		<input type=email name=email required placeholder="aaa@bbb.ccc"> Wpisz adres e-mail (wymagane)<br>
+		<input type=email name=email required placeholder="aaa@bbb.ccc" onfocus=showHelp() onblur=hideHelp()> Wpisz adres e-mail (wymagane)<br>
 		
 		Miesiąc urodzin:<br>
 			<input list="miesiace">
@@ -62,7 +62,7 @@
 			Wybierz miesiąc z listy
 		<br>
 		Telefon: <br>
-			<input type=tel name=usrtel pattern=[0-9]{9} placeholder="123456789"> Wprowadź 9-cyfrowy numer telefonu<br>
+			<input type=tel name=usrtel pattern=[0-9]{9} placeholder="123456789" onfocus=showHelp() onblur=hideHelp()> Wprowadź 9-cyfrowy numer telefonu<br>
 			
 		<br>
 		Preferowany kolor tabardu: <br>
@@ -80,6 +80,12 @@
 		<button type="submit" value="Wyślij">Wyślij</button>
 		
 	</form>
+	
+	<article id="help">
+		<p> Wymagane pola: nazwisko, adres e-mail.</p>
+		<p> E-mail podaj w formie nazwa@domena.com</p>
+		<p> Numer telefonu podaj w postaci 987655321</p>
+	</article>
 
 	</div>
 </body>

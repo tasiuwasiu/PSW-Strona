@@ -17,3 +17,13 @@ function clearAlert()
 {
 	alert("Wyczyszczono formularz");
 };
+
+function showHelp()
+{
+	document.getElementById("help").style.display="block";
+}
+
+function hideHelp()
+{
+	document.getElementById("help").style.display="none";
+}
