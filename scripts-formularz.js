@@ -10,5 +10,10 @@ function rng() {
 	
 function send()
 {
-	alert("Wysłano formularz! Dzięki za zgłoszenie :>");
-}
+	return confirm("Czy na pewno chcesz wysłać formularz?");
+};
+
+function clearAlert()
+{
+	alert("Wyczyszczono formularz");
+};

@@ -8,7 +8,7 @@
 	<meta name="keywords" content="wow,world,warcraft,wipenation,gildia,defias">
 	<meta name="author" content="Rafał Wasik">
 	<link rel="stylesheet" type="text/css" href="index.css">
-	<script src="rng.js"> </script>
+	<script src="scripts-index.js"> </script>
 </head>
 
 <body>
@@ -29,6 +29,13 @@
 		<div><a href = "form_osoba.html">Formularz</a></div>
 		<div><a href = "login.html">Zaloguj</a></div>
 		<div><p id="RNG" onclick="rng()">ROLL</p> </div>
+		<div>
+			<select id=selectList onchange="changeAppearance()">
+			<option value="1">Wygląd 1</option>
+			<option value="2">Wygląd 2</option>
+			<option value="3">Wygląd 3</option>
+			</select>
+		</div>
 	</div>
 
 	<div id="main">
@@ -48,33 +55,26 @@
 	</section>
 	
 	<section>
-	<h3>Co robimy?</h3>
+	<h3>Co robimy?</h3>  <button id=but_on onclick=rozwin()>Rozwiń</button>  <button id=but_off onclick=zwin()>Zwiń</button>
 	<ul>
 		<li>Poniedziałek
-			<ul>
-				<li><mark>Rajd</mark></li>
+			<ul id="list1">
 			</ul>
 		</li>
 		<li>Czwartek
-			<ul>
-				<li><mark>Rajd</mark></li>
+			<ul id="list2">
 			</ul>
 		</li>
 		<li>Piątek
-			<ul>
-				<li>Mythic+</li>
-				<li>Areny</li>
+			<ul id="list3">
 			</ul>
 		</li>
 		<li>Sobota
-			<ul>
-				<li><mark>Rajd</mark></li>
-				<li>Battlegroundy</li>
+			<ul id="list4">
 			</ul>
 		</li>
 		<li>Niedziela
-			<ul>
-				<li>Transmog runy</li>
+			<ul id="list5">
 			</ul>
 		</li>
 	</ul>

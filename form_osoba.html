@@ -8,7 +8,7 @@
 	<meta name="keywords" content="wow,world,warcraft,wipenation,gildia,defias">
 	<meta name="author" content="Rafał Wasik">
 	<link rel="stylesheet" type="text/css" href="form_osoba.css">
-	<script src="rng.js"> </script>
+	<script src="scripts-formularz.js"> </script>
 </head>
 
 <body>
@@ -35,7 +35,7 @@
 
 	<h1>Formularz dodatkowy dla obecnych członków gildii</h1>
 	
-	<form method="get" autocomplete="on">
+	<form method="get" autocomplete="on" onsubmit="send()" onreset="clearAlert()">
 		Imię:<br>
 			<input type=text name=fname autofocus> Wpisz imię<br>
 		Nazwisko:<br>
