@@ -1,0 +1,102 @@
+body {
+	background-attachment: fixed;
+	background-image: url("bg.jpg");
+	background-repeat: no-repeat;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  left: 0px;
+  top: 0px;
+  float: left;
+  width: 7%;
+  position: fixed;
+}
+
+.flex-container div {
+	position:relative;
+	background-color: #f1f1f1;
+	width: 80%;
+	margin: 6px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 10px;
+	transition: width 0.5s;
+	transition: font-size 0.2s;
+}
+
+.flex-container div:hover {
+	width: 90%;
+	font-size: 25px;
+}
+
+.menu_content {
+	width:60%;
+	display:none;
+	position: absolute;
+}
+
+.flex-container div:hover .menu_content {
+	display:block;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  float: left;
+  height: 30%;
+  position: fixed;
+}
+
+.image-container div {
+	position:relative;
+	background-color: #f1f1f1;
+	height: 60%;
+	width: 30%;
+	margin: 6px;
+	text-align: center;
+	line-height: 50px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 10px;
+	transition: height 0.5s;
+	transition: width 0.5s;
+}
+
+.image-container div img{
+	margin: 2%;
+	
+}
+
+.image-container div:hover {
+	height: 90%;
+}
+
+.image-container div:hover img{
+	height: 90%;
+	width: 90%;
+}
+
+#menu_logo {
+	background-color:black;
+	
+}
+
+#main {
+
+	margin-right: 50px;
+	margin-left: 7%;
+	margin-top: 40px;
+}
+
+#canv {
+	background-color: white;
+	margin-top: 10%;
+	margin-left: 1%;
+}

@@ -6,4 +6,9 @@ function rng() {
 	
 		var rand = Math.random()*max;
 		document.getElementById("RNG").innerHTML = Math.floor(rand);
-	}
+	};
+	
+function send()
+{
+	alert("Wysłano formularz! Dzięki za zgłoszenie :>");
+}

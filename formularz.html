@@ -8,7 +8,7 @@
 	<meta name="keywords" content="wow,world,warcraft,wipenation,gildia,defias,zapisy,rekrutacja">
 	<meta name="author" content="Rafał Wasik">
 	<link rel="stylesheet" type="text/css" href="formularz.css">
-	<script src="rng.js"> </script>
+	<script src="scripts_formularz.js"> </script>
 </head>
 
 <body>
@@ -38,11 +38,11 @@
 	<h3> Jeżeli chcesz dołączyć do naszej gildii, wypełnij ten formularz :></h3>
 
 	
-	<form>
+	<form onsumbit=send() >
 		Nick:<br>
-			<input type=text size=40><br>
+			<input type=text size=40 required><br>
 		Nazwa postaci:<br>
-			<input type=text size=40><br>
+			<input type=text size=40 required><br>
 		Serwer:<br>
 			<select>
 				<optgroup label="Połączone">

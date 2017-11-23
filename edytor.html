@@ -7,11 +7,11 @@
 	<meta name="description" content="Strona gildii WipeNation">
 	<meta name="keywords" content="wow,world,warcraft,wipenation,gildia,defias">
 	<meta name="author" content="Rafał Wasik">
-	<link rel="stylesheet" type="text/css" href="login.css">
-	<script src="rng.js"> </script>
+	<link rel="stylesheet" type="text/css" href="edytor.css">
+	<script src="scripts_edytor.js"> </script>
 </head>
 
-<body>
+<body onload=init()>
 	
 	<div class="flex-container">
 		<div id="menu_logo"><a href = "index.html"><img src="logo.jpg" height=100% width=75%/></a></div>
@@ -30,38 +30,28 @@
 		<div><a href = "login.html">Zaloguj</a></div>
 		<div><p id="RNG" onclick="rng()">ROLL</p> </div>
 	</div>
-	
+
 	<div id="main">
 	
-	<h2 style="text-align:center; padding-top: 20px">Zaloguj się!</h2>
-	
-	<br>
-	
-	<div align="center">
-	<form>
-		Login:<br>
-			<input type=text size=40 autofocus><br><br>
-		Hasło:<br>
-			<input type=text size=40>
-			<br><br>
-	</form>
-	<br><br>
-	<button onclick="login()"> ZALOGUJ </button>
+	<div class ="image-container">
+		<div id="img1" onclick=replaceImage("miss.jpg")><img src="miss.jpg" width=80% height= 80% alt="Heroic Misstress"></div>
+		<div id="img2" onclick=replaceImage("sis.jpg")><img src="sis.jpg" width=80% height= 80% alt="Heroic Sisters"></div>
+		<div id="img3" onclick=replaceImage("bg.jpg")><img src="bg.jpg" width=80% height= 80% alt="Background"></div>
+		<div id="img4" onclick=replaceImage("kj.jpg")><img src="kj.jpg" width=80% height= 80% alt="Heroic Kil'jaeden"></div>
+		
 	</div>
+	<br>
+	<div id="canv">
+	<p>Edytor obrazków</p>
+	<canvas id="myCanvas" width=800 height=600 style="margin-left:5%">
+	Coś nie działa.
+	</canvas><br>
+		<button onclick=respondClick(event)> Zmiana</button>
 	</div>
 	
 
-	<script>
-		function login (){
-		var input = document.getElementsByTagName("input");
-		if (input[0].value== "admin" && input[1].value=="admin")
-			{alert("Zalogowano");
-			window.location.href = "edytor.html";}
-			else
-			{	alert("Błędne dane");}
-		}
-	
-	</script>
+	</div>
 </body>
-	
+
+
 </html>
