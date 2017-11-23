@@ -35,58 +35,37 @@ function zwin(){
 	document.getElementById("but_on").style.display = "block";
 	document.getElementById("but_off").style.display = "none";
 	
-
-	var elem1 = document.getElementById("list1");
-	while(elem1.hasChildNodes()){
-		elem1.removeChild(elem1.childNodes[0]);
+	for (i=1; i<=5; i++)
+	{
+		var elem = document.getElementById("list"+i);
+		while (elem.hasChildNodes())
+		{
+			elem.removeChild(elem.childNodes[0]);
 		}
-	
-	var elem2 = document.getElementById("list2");
-	while(elem2.hasChildNodes()){
-		elem2.removeChild(elem2.childNodes[0]);
-		}
-	
-	var elem3 = document.getElementById("list3");
-	while(elem3.hasChildNodes()){
-		elem3.removeChild(elem3.childNodes[0]);
-		}
-	
-	var elem4 = document.getElementById("list4");
-	while(elem4.hasChildNodes()){
-		elem4.removeChild(elem4.childNodes[0]);
-		}
-	
-	var elem5 = document.getElementById("list5");
-	while(elem5.hasChildNodes()){
-		elem5.removeChild(elem5.childNodes[0]);
-		}
+	}
 };
 
 function rozwin(){
 	document.getElementById("but_on").style.display = "none";
 	document.getElementById("but_off").style.display = "block";
 
-	var n1 = document.createElement("LI");
-	n1.appendChild(document.createTextNode("Rajd"));
-	document.getElementById("list1").appendChild(n1);
+	var rajd = ["1", "2", "4"];
+	var mythic = ["1", "3"];
+	var areny = ["3", "5"];
 	
-	var n2 = document.createElement("LI");
-	n2.appendChild(document.createTextNode("Rajd"));
-	document.getElementById("list2").appendChild(n2);
-	
-	var n3 = document.createElement("LI");
-	n3.appendChild(document.createTextNode("Rajd"));
-	document.getElementById("list4").appendChild(n3);
+	for (i=0;i<3;i++)
+	{
+		var node = document.createElement("LI");
+		node.appendChild(document.createTextNode("Rajd"));
+		document.getElementById("list"+rajd[i]).appendChild(node);
+	}
 
-	
-	var n4 = document.createElement("LI");
-	n4.appendChild(document.createTextNode("Mythic+"));
-	document.getElementById("list1").appendChild(n4);
-	
-	var n5 = document.createElement("LI");
-	n5.appendChild(document.createTextNode("Mythic+"));
-	document.getElementById("list3").appendChild(n5);
-	
+	for (i=0; i<2; i++)
+	{
+		var node = document.createElement("LI");
+		node.appendChild(document.createTextNode("Mythic+"));
+		document.getElementById("list"+mythic[i]).appendChild(node);
+	}
 
 	var n6 = document.createElement("LI");
 	n6.appendChild(document.createTextNode("Battlegroundy"));
@@ -97,12 +76,10 @@ function rozwin(){
 	n7.appendChild(document.createTextNode("Transmog runy"));
 	document.getElementById("list5").appendChild(n7);
 	
-	
-	var n8 = document.createElement("LI");
-	n8.appendChild(document.createTextNode("Areny"));
-	document.getElementById("list3").appendChild(n8);
-	
-	var n9 = document.createElement("LI");
-	n9.appendChild(document.createTextNode("Areny"));
-	document.getElementById("list5").appendChild(n9);
+	for (i=0; i<2; i++)
+	{
+		var node = document.createElement("LI");
+		node.appendChild(document.createTextNode("Areny"));
+		document.getElementById("list"+areny[i]).appendChild(node);
+	}
 };
