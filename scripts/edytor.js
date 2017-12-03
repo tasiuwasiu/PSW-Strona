@@ -13,7 +13,7 @@ function rng() {
 function init() {
 	c = document.getElementById("myCanvas");
 	ctx = c.getContext("2d");
-	replaceImage("miss.jpg");
+	replaceImage("../images/miss.jpg");
 };
 
 	

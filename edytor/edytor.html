@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+	<meta charset="utf-8" /> 
+	<title>WipeNation</title>
+	<meta name="description" content="Strona gildii WipeNation">
+	<meta name="keywords" content="wow,world,warcraft,wipenation,gildia,defias">
+	<meta name="author" content="Rafał Wasik">
+	<link rel="stylesheet" type="text/css" href="../css/edytor.css">
+	<script src="../scripts/edytor.js"> </script>
+</head>
+
+<body onload=init()>
+	
+	<div class="flex-container">
+		<div id="menu_logo"><a href = "../index.html"><img src="../images/logo.jpg" height=100% width=75%/></a></div>
+		<div><a href = "../index.html">Główna</a></div>
+		<div>
+			<a href = "../kille/kille.html">Galeria</a>
+			<div class="menu_content"><a href = "#">ToS</a></div>
+			<div class="menu_content"><a href = "#">Antorus</a></div>
+		</div>
+		<div><a href = "../sklad/sklad.html">Skład</a>
+		<div class="menu_content"><a href = "#">Main</a></div>
+		<div class="menu_content"><a href = "#">Rezerwa</a></div>
+		</div>
+		<div><a href = "../formularz/formularz.html">Rekrutacja</a></div>
+		<div><a href = "../form_osoba/form_osoba.html">Formularz</a></div>
+		<div><a href = "../login/login.html">Zaloguj</a></div>
+		<div><p id="RNG" onclick="rng()">ROLL</p> </div>
+	</div>
+
+	<div id="main">
+	
+	<div class ="image-container">
+		<div id="img1" onclick=replaceImage("../images/miss.jpg")><img src="../images/miss.jpg" width=80% height= 80% alt="Heroic Misstress"></div>
+		<div id="img2" onclick=replaceImage("../images/sis.jpg")><img src="../images/sis.jpg" width=80% height= 80% alt="Heroic Sisters"></div>
+		<div id="img3" onclick=replaceImage("../images/bg.jpg")><img src="../images/bg.jpg" width=80% height= 80% alt="Background"></div>
+		<div id="img4" onclick=replaceImage("../images/kj.jpg")><img src="../images/kj.jpg" width=80% height= 80% alt="Heroic Kil'jaeden"></div>
+		
+	</div>
+	<br>
+	<div id="canv">
+	<p>Edytor obrazków</p>
+	<canvas id="myCanvas" width=800 height=600 style="margin-left:5%">
+	Coś nie działa.
+	</canvas><br>
+		<button onclick=respondClick(event)> Zmiana</button>
+	</div>
+	
+
+	</div>
+</body>
+
+
+</html>
