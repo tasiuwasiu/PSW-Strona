@@ -35,16 +35,16 @@
 
 	<h1>Formularz dodatkowy dla obecnych członków gildii</h1>
 	
-	<form method="get" autocomplete="on" onsubmit="send()" onreset="clearAlert()">
+	<form method="post" action="check_form_osoba.php" autocomplete="on" onsubmit="send()" onreset="clearAlert()">
 		Imię:<br>
-			<input type=text name=fname autofocus onfocus=showHelp() onblur=hideHelp()> Wpisz imię<br>
+			<input type=text name=fname required autofocus onfocus=showHelp() onblur=hideHelp()> Wpisz imię<br>
 		Nazwisko:<br>
 			<input type=text name=lname required onfocus=showHelp() onblur=hideHelp()> Wpisz nazwisko (wymagane)<br>
 		E-mail: <br>
 		<input type=email name=email required placeholder="aaa@bbb.ccc" onfocus=showHelp() onblur=hideHelp()> Wpisz adres e-mail (wymagane)<br>
 		
 		Miesiąc urodzin:<br>
-			<input list="miesiace">
+			<input type=text list="miesiace" name=miesiac>
 				<datalist id="miesiace">
 					<option value="Styczeń">
 					<option value="Luty">
@@ -76,8 +76,8 @@
 		Link do Wowprogress: <br>
 			<input type="url" name="wppage" placeholder="wowprogress.com/char..."> <br> <br>
 		
-		<button type="reset" value="Reset">Wyczyść</button>
-		<button type="submit" value="Wyślij">Wyślij</button>
+		<input type="reset" value="Wyczyść">
+		<input type="submit" value="Wyślij">
 		
 	</form>
 	
