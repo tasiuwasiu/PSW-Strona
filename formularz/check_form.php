@@ -13,23 +13,7 @@
 
 <body>
 	
-	<div class="flex-container">
-		<div id="menu_logo"><a href = "../index.html"><img src="../images/logo.jpg" height=100% width=75%/></a></div>
-		<div><a href = "../index.html">Główna</a></div>
-		<div>
-			<a href = "../kille/kille.html">Galeria</a>
-			<div class="menu_content"><a href = "#">ToS</a></div>
-			<div class="menu_content"><a href = "#">Antorus</a></div>
-		</div>
-		<div><a href = "../sklad/sklad.html">Skład</a>
-		<div class="menu_content"><a href = "#">Main</a></div>
-		<div class="menu_content"><a href = "#">Rezerwa</a></div>
-		</div>
-		<div><a href = "formularz.html">Rekrutacja</a></div>
-		<div><a href = "../form_osoba/form_osoba.html">Formularz</a></div>
-		<div><a href = "../login/login.html">Zaloguj</a></div>
-		<div><p id="RNG" onclick="rng()">ROLL</p> </div>
-	</div>
+	<?php include '..\inc.php';?>
 	
 	<div id="form">
 	
@@ -89,6 +73,7 @@
 	
 	</div>
 	
+	<?php include '..\fun.php';?>
 	</body>
 
 </html>
