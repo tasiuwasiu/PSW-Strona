@@ -12,7 +12,8 @@
 </head>
 
 <body>
-	
+	<?php session_start(); ?>
+
 	<?php include '..\inc.php';?>
 
 	<div id="main">

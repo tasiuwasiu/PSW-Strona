@@ -12,10 +12,25 @@
 </head>
 
 <body onload=init()>
-	
+	<?php session_start(); ?>
 	<?php include '..\inc.php';?>
-
+	
+	
+	
 	<div id="main">
+	<?php include '..\fun.php';?>
+	
+	<?php 
+	if (!isset($_SESSION["name"]))
+	{
+		
+		die("</div>
+			</body>
+			</html>");	
+	}
+	?>
+
+	
 	
 	<div class ="image-container">
 		<div id="img1" onclick=replaceImage("../images/miss.jpg")><img src="../images/miss.jpg" width=80% height= 80% alt="Heroic Misstress"></div>
@@ -36,7 +51,7 @@
 
 	</div>
 	
-	<?php include '..\fun.php';?>
+	
 </body>
 
 

@@ -12,7 +12,7 @@
 </head>
 
 <body>
-	
+	<?php session_start(); ?>
 	<?php include '..\inc.php';?>
 	
 	<div id="main">
@@ -22,15 +22,15 @@
 	<br>
 	
 	<div align="center">
-	<form>
+	<form method= "post" action = "zalogowano.php" onsubmit="login()">
 		Login:<br>
-			<input type=text size=40 autofocus><br><br>
+			<input name = "login" type=text size=40 autofocus><br><br>
 		Hasło:<br>
 			<input type=text size=40>
 			<br><br>
+			
+		<input type="submit" value="Zaloguj">
 	</form>
-	<br><br>
-	<button onclick="login()"> ZALOGUJ </button>
 	</div>
 	</div>
 	
@@ -39,8 +39,7 @@
 		function login (){
 		var input = document.getElementsByTagName("input");
 		if (input[0].value== "admin" && input[1].value=="admin")
-			{alert("Zalogowano");
-			window.location.href = "../edytor/edytor.php";}
+			alert("Zalogowano");
 			else
 			{	alert("Błędne dane");}
 		}

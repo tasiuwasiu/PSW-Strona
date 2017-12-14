@@ -1,5 +1,4 @@
 <?php
-print ($_COOKIE["appearance"]);
 	if(isset($_COOKIE["appearance"]))
 	{
 		?>

@@ -12,12 +12,14 @@
 </head>
 
 <body>
-	
+	<?php session_start(); ?>
 	<?php include '..\inc.php';?>
 
-	<h1 style="text-align:center;"> Galeria First Killi</h1>
+	
 
 <div id="main">
+
+<h1 style="text-align:center;"> Galeria First Killi</h1>
 
 <button id="btn_tos">Pokaż/ukryj TOS</button>
 <button id="btn_ant">Pokaż/ukryj ANT</button>

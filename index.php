@@ -12,6 +12,10 @@
 </head>
 
 <body>
+
+<?php
+session_start();
+?>
 	
 	<div class="flex-container">
 		<div id="menu_logo"><a href = "index.php"><img src="images/logo.jpg" height=100% width=75%/></a></div>
@@ -27,7 +31,6 @@
 		</div>
 		<div><a href = "formularz/formularz.php">Rekrutacja</a></div>
 		<div><a href = "form_osoba/form_osoba.php">Formularz</a></div>
-		<div><a href = "login/login.php">Zaloguj</a></div>
 		<div><p id="RNG" onclick="rng()">ROLL</p> </div>
 		<div>
 			<select id=selectList onchange="changeAppearance()">
@@ -36,6 +39,22 @@
 			<option value="3">Wygląd 3</option>
 			</select>
 		</div>
+		<?php
+		if (!isset($_SESSION["name"]))
+		{ ?>
+		<div><a href = "login/login.php">Zaloguj</a></div>
+		<?php 
+		}
+		?>
+		<?php
+		if (isset($_SESSION["name"]))
+		{ ?>
+			<div><a href = "edytor/edytor.php">Edytor</a></div>
+			<div><?php echo $_SESSION["name"]; ?></div>
+			<div><a href = "login/wyloguj.php">WYLOGUJ</a></div>
+		<?php
+		}
+		?>
 	</div>
 
 	<div id="main">
