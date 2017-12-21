@@ -13,19 +13,45 @@
 
 <body>
 	
+	<div id="main">
 	<?php 
 	session_start();
-	$_SESSION["name"] = $_POST["login"];
-	include '..\inc.php';
 	
+	$link = mysqli_connect("localhost","root", "pass", "Uzytkownicy");
+	if(mysqli_connect_errno())
+	{
+		die("ERROR CONNECTING DB  </div> </body>
+			</html>");
+	}
+	$login = $_POST["login"];
+	$password = $_POST["pass"];
+	$sql = mysqli_query($link, "SELECT * FROM Uzytk WHERE username='$login' LIMIT 1");
+	$result = mysqli_fetch_row($sql);
+	if (isset($result))
+	{
+		if ($result[2] == $password)
+		{
+			$_SESSION["name"] = $_POST["login"];
+		
 	?>
-
-	<div id="main">
-	
 	<h1 style="text-align:center; padding-top: 20px">Zalogowano!</h1>
-	
+	<?php 
+		}
+		else 
+		{?>
+			<h1 style="text-align:center; padding-top: 20px">BŁĘDNE HASŁO!</h1>
+		<?php
+		}
+	}
+	else 
+	{ ?>
+		<h1 style="text-align:center; padding-top: 20px">Brak użytkownika o podanej nazwie!</h1>
+    <?php
+	}
+	?>
 	</div>
-	<?php include '..\fun.php';?>
+	<?php include '..\fun.php';
+	include '..\inc.php';?>
 </body>
 	
 </html>

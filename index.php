@@ -43,6 +43,7 @@ session_start();
 		if (!isset($_SESSION["name"]))
 		{ ?>
 		<div><a href = "login/login.php">Zaloguj</a></div>
+		<div><a href = "dodaj/dodaj.php">Dodaj</a></div>
 		<?php 
 		}
 		?>
