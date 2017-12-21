@@ -29,9 +29,9 @@
 	$result = mysqli_fetch_row($sql);
 	if (isset($result))
 	{
-		if ($result[2] == $password)
+		if ($result[3] == $password)
 		{
-			$_SESSION["name"] = $_POST["login"];
+			$_SESSION["name"] = $login;
 		
 	?>
 	<h1 style="text-align:center; padding-top: 20px">Zalogowano!</h1>
@@ -48,6 +48,7 @@
 		<h1 style="text-align:center; padding-top: 20px">Brak użytkownika o podanej nazwie!</h1>
     <?php
 	}
+	$link -> close();
 	?>
 	</div>
 	<?php include '..\fun.php';

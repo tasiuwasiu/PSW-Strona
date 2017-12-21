@@ -39,11 +39,11 @@ session_start();
 			<option value="3">Wygląd 3</option>
 			</select>
 		</div>
+		<div><a href = "dodaj/dodaj.php">Użytk.</a></div>
 		<?php
 		if (!isset($_SESSION["name"]))
 		{ ?>
 		<div><a href = "login/login.php">Zaloguj</a></div>
-		<div><a href = "dodaj/dodaj.php">Dodaj</a></div>
 		<?php 
 		}
 		?>
