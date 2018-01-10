@@ -1,5 +1,5 @@
 <%@ Page Title="Formularz" Language="vb" MasterPageFile="~/Site.Master" AutoEventWireup="false"
-    CodeBehind="formularz.aspx.vb" Inherits="ASP._Default" %>
+    CodeBehind="formularz.aspx.vb" Inherits="ASP.Formularz" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
     <link rel="stylesheet" type="text/css" href="css/dodaj.css">

@@ -6,7 +6,71 @@ ASP
 </name>
 </assembly>
 <members>
-<member name="F:ASP._Default.main">
+<member name="F:ASP.Lista.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ASP.Lista.RadioButtonList1">
+	<summary>
+RadioButtonList1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ASP.Lista.KategorieLINQDataSource">
+	<summary>
+KategorieLINQDataSource control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ASP.Lista.GridView1">
+	<summary>
+GridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ASP.Lista.ProduktyLINQDataSource">
+	<summary>
+ProduktyLINQDataSource control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ASP.Lista.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ASP.Lista.Literal1">
+	<summary>
+Literal1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ASP.ChangePassword.ChangeUserPassword">
+	<summary>
+ChangeUserPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ASP.Formularz.main">
 	<summary>
 main control.
 </summary>
@@ -14,7 +78,7 @@ main control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:ASP._Default.nazwa">
+</member><member name="F:ASP.Formularz.nazwa">
 	<summary>
 nazwa control.
 </summary>
@@ -22,7 +86,7 @@ nazwa control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:ASP._Default.haslo">
+</member><member name="F:ASP.Formularz.haslo">
 	<summary>
 haslo control.
 </summary>
@@ -30,7 +94,7 @@ haslo control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:ASP._Default.haslo2">
+</member><member name="F:ASP.Formularz.haslo2">
 	<summary>
 haslo2 control.
 </summary>
@@ -38,7 +102,7 @@ haslo2 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:ASP._Default.email">
+</member><member name="F:ASP.Formularz.email">
 	<summary>
 email control.
 </summary>
@@ -46,7 +110,7 @@ email control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:ASP._Default.tel">
+</member><member name="F:ASP.Formularz.tel">
 	<summary>
 tel control.
 </summary>
@@ -54,7 +118,7 @@ tel control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:ASP._Default.RequiredFieldValidator1">
+</member><member name="F:ASP.Formularz.RequiredFieldValidator1">
 	<summary>
 RequiredFieldValidator1 control.
 </summary>
@@ -62,7 +126,7 @@ RequiredFieldValidator1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:ASP._Default.RegularExpressionValidator1">
+</member><member name="F:ASP.Formularz.RegularExpressionValidator1">
 	<summary>
 RegularExpressionValidator1 control.
 </summary>
@@ -70,7 +134,7 @@ RegularExpressionValidator1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:ASP._Default.btnSubmit">
+</member><member name="F:ASP.Formularz.btnSubmit">
 	<summary>
 btnSubmit control.
 </summary>
@@ -78,7 +142,7 @@ btnSubmit control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:ASP._Default.btnShow">
+</member><member name="F:ASP.Formularz.btnShow">
 	<summary>
 btnShow control.
 </summary>
@@ -86,7 +150,7 @@ btnShow control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:ASP._Default.textlab">
+</member><member name="F:ASP.Formularz.textlab">
 	<summary>
 textlab control.
 </summary>
@@ -127,6 +191,62 @@ To modify move field declaration from designer file to code-behind file.
  Module used to define the properties that are available in the My Namespace for Web projects.
  </summary>
 	<remarks></remarks>
+</member><member name="F:ASP.Site.HeadContent">
+	<summary>
+HeadContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ASP.Site.linkGlowna">
+	<summary>
+linkGlowna control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ASP.Site.logo">
+	<summary>
+logo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ASP.Site.linkGlowna2">
+	<summary>
+linkGlowna2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ASP.Site.linkGaleria">
+	<summary>
+linkGaleria control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ASP.Site.linkProdukty">
+	<summary>
+linkProdukty control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ASP.Site.MainContent">
+	<summary>
+MainContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="F:ASP.Login.RegisterHyperLink">
 	<summary>
 RegisterHyperLink control.
@@ -143,22 +263,6 @@ LoginUser control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:ASP.Site.HeadContent">
-	<summary>
-HeadContent control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:ASP.Site.MainContent">
-	<summary>
-MainContent control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
 </member><member name="F:ASP.Register.RegisterUser">
 	<summary>
 RegisterUser control.
@@ -170,14 +274,6 @@ To modify move field declaration from designer file to code-behind file.
 </member><member name="F:ASP.Register.RegisterUserWizardStep">
 	<summary>
 RegisterUserWizardStep control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:ASP.ChangePassword.ChangeUserPassword">
-	<summary>
-ChangeUserPassword control.
 </summary>
 	<remarks>
 Auto-generated field.

@@ -1,4 +1,4 @@
-﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site.master.vb" Inherits="ASP.Site" %>
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site.Master.vb" Inherits="ASP.Site" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
@@ -11,18 +11,12 @@
 </head>
 <body>
     <div class="flex-container">
-		<div id="menu_logo"><a href = "Default.aspx"><img src="images/logo.jpg" height=100% width=75%/></a></div>
-		<div><a href = "Default.aspx">Główna</a></div>
-		<div>
-			<a href = "kille.aspx">Galeria</a>
-			<div class="menu_content"><a href = "#">ToS</a></div>
-			<div class="menu_content"><a href = "#">Antorus</a></div>
-		</div>
-		<div><a href = "sklad/sklad.php">Skład</a>
-		<div class="menu_content"><a href = "#">Main</a></div>
-		<div class="menu_content"><a href = "#">Rezerwa</a></div>
-		</div>
-		<div><a href = "formularz/formularz.php">Rekrutacja</a></div>
+		<div id="menu_logo"><asp:HyperLink ID="linkGlowna" runat="server" NavigateURL="~/Default.aspx">
+            <asp:Image ID="logo" runat="server" ImageURL="~/images/logo.jpg"/></asp:HyperLink></div>
+		<div><asp:HyperLink ID="linkGlowna2" runat="server" NavigateURL="~/Default.aspx">Główna</asp:HyperLink></div>
+		<div><asp:HyperLink ID="linkGaleria" runat="server" NavigateURL="~/kille.aspx">Galeria</asp:HyperLink></div>
+		<div><asp:HyperLink ID="linkProdukty" runat="server" NavigateURL="~/wyswietlListe/lista.aspx">Produkty</asp:HyperLink></div>
+		<div><asp:HyperLink ID="linkKoszyk" runat="server" NavigateURL="~/obslugaKoszyka/wyswietlKoszyk.aspx">Koszyk</asp:HyperLink></div>
 		<div><a href = "formularz.aspx">Formularz</a></div>
 		<div><p id="RNG" onclick="rng()">ROLL</p> </div>
 		<div>
@@ -32,7 +26,6 @@
 			<option value="3">Wygląd 3</option>
 			</select>
 		</div>
-		<div><a href = "dodaj/dodaj.php">Użytk.</a></div>
 	</div>
 
     <div class="main">

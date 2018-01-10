@@ -11,77 +11,68 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class Site
+Partial Public Class Lista
 
     '''<summary>
-    '''HeadContent control.
+    '''form1 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents HeadContent As Global.System.Web.UI.WebControls.ContentPlaceHolder
+    Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
-    '''linkGlowna control.
+    '''RadioButtonList1 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents linkGlowna As Global.System.Web.UI.WebControls.HyperLink
+    Protected WithEvents RadioButtonList1 As Global.System.Web.UI.WebControls.RadioButtonList
 
     '''<summary>
-    '''logo control.
+    '''KategorieLINQDataSource control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents logo As Global.System.Web.UI.WebControls.Image
+    Protected WithEvents KategorieLINQDataSource As Global.System.Web.UI.WebControls.LinqDataSource
 
     '''<summary>
-    '''linkGlowna2 control.
+    '''GridView1 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents linkGlowna2 As Global.System.Web.UI.WebControls.HyperLink
+    Protected WithEvents GridView1 As Global.System.Web.UI.WebControls.GridView
 
     '''<summary>
-    '''linkGaleria control.
+    '''ProduktyLINQDataSource control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents linkGaleria As Global.System.Web.UI.WebControls.HyperLink
+    Protected WithEvents ProduktyLINQDataSource As Global.System.Web.UI.WebControls.LinqDataSource
 
     '''<summary>
-    '''linkProdukty control.
+    '''Label1 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents linkProdukty As Global.System.Web.UI.WebControls.HyperLink
+    Protected WithEvents Label1 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''linkKoszyk control.
+    '''Literal1 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents linkKoszyk As Global.System.Web.UI.WebControls.HyperLink
-
-    '''<summary>
-    '''MainContent control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents MainContent As Global.System.Web.UI.WebControls.ContentPlaceHolder
+    Protected WithEvents Literal1 As Global.System.Web.UI.WebControls.Literal
 End Class

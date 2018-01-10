@@ -8,7 +8,7 @@ Public Class Global_asax
     End Sub
 
     Sub Session_Start(ByVal sender As Object, ByVal e As EventArgs)
-        ' Fires when the session is started
+        Session("koszyk") = New Koszyk
     End Sub
 
     Sub Application_BeginRequest(ByVal sender As Object, ByVal e As EventArgs)
