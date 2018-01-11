@@ -9,6 +9,7 @@ Public Class Global_asax
 
     Sub Session_Start(ByVal sender As Object, ByVal e As EventArgs)
         Session("koszyk") = New Koszyk
+        Session("tab") = New Hashtable()
     End Sub
 
     Sub Application_BeginRequest(ByVal sender As Object, ByVal e As EventArgs)

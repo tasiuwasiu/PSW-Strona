@@ -81,7 +81,7 @@ Partial Public Class produkty
 	
 	Private _nazwa As String
 	
-	Private _cena As System.Nullable(Of Double)
+	Private _cena As System.Nullable(Of Integer)
 	
 	Private _opis As String
 	
@@ -104,7 +104,7 @@ Partial Public Class produkty
     End Sub
     Partial Private Sub OnnazwaChanged()
     End Sub
-    Partial Private Sub OncenaChanging(value As System.Nullable(Of Double))
+    Partial Private Sub OncenaChanging(value As System.Nullable(Of Integer))
     End Sub
     Partial Private Sub OncenaChanged()
     End Sub
@@ -159,8 +159,8 @@ Partial Public Class produkty
 		End Set
 	End Property
 	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_cena", DbType:="Float")>  _
-	Public Property cena() As System.Nullable(Of Double)
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_cena", DbType:="Int")>  _
+	Public Property cena() As System.Nullable(Of Integer)
 		Get
 			Return Me._cena
 		End Get

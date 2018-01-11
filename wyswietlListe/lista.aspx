@@ -34,23 +34,34 @@
     <p>
         <asp:GridView ID="GridView1" runat="server" AllowPaging="True" 
             AllowSorting="True" AutoGenerateColumns="False" 
-            DataSourceID="ProduktyLINQDataSource" onRowCommand="GridView1_RowCommand">
+            DataSourceID="ProduktyLINQDataSource" onRowCommand="GridView1_RowCommand" 
+            CellPadding="4" ForeColor="#333333" GridLines="None">
+            <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
             <Columns>
-                <asp:BoundField AccessibleHeaderText="ID Produktu" DataField="idProduktu" 
-                    HeaderText="ID Produktu" ReadOnly="True" SortExpression="idProduktu">
-                <ItemStyle Width="10%" />
+                <asp:BoundField DataField="idProduktu" 
+                    HeaderText="idProduktu" ReadOnly="True" SortExpression="idProduktu">
                 </asp:BoundField>
-                <asp:BoundField AccessibleHeaderText="Nazwa" DataField="nazwa" 
-                    HeaderText="Nazwa" ReadOnly="True" SortExpression="nazwa" />
-                <asp:BoundField AccessibleHeaderText="Cena" DataField="cena" HeaderText="Cena" 
-                    ReadOnly="True" SortExpression="cena" />
-                <asp:ButtonField CommandName="Dodaj" Text="Dodaj do koszyka" 
+                <asp:BoundField DataField="nazwa" 
+                    HeaderText="nazwa" ReadOnly="True" SortExpression="nazwa" />
+                <asp:BoundField DataField="cena" HeaderText="cena" ReadOnly="True" 
+                    SortExpression="cena" />
+                    <asp:ButtonField CommandName="Dodaj" Text="Dodaj do koszyka" 
                     ButtonType="Button" CausesValidation="True" />
             </Columns>
+            <EditRowStyle BackColor="#999999" />
+            <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+            <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+            <PagerStyle BackColor="#284775" ForeColor="White" HorizontalAlign="Center" />
+            <RowStyle BackColor="#F7F6F3" ForeColor="#333333" />
+            <SelectedRowStyle BackColor="#E2DED6" Font-Bold="True" ForeColor="#333333" />
+            <SortedAscendingCellStyle BackColor="#E9E7E2" />
+            <SortedAscendingHeaderStyle BackColor="#506C8C" />
+            <SortedDescendingCellStyle BackColor="#FFFDF8" />
+            <SortedDescendingHeaderStyle BackColor="#6F8DAE" />
         </asp:GridView>
         <asp:LinqDataSource ID="ProduktyLINQDataSource" runat="server" 
             ContextTypeName="ASP.KategorieDataSourceDataContext" EntityTypeName="" 
-            Select="new (idProduktu, nazwa, cena, opis, data_dodania)" 
+            Select="new (idProduktu, nazwa, cena)" 
             TableName="produkties" Where="kategoria == @kategoria">
             <WhereParameters>
                 <asp:ControlParameter ControlID="RadioButtonList1" Name="kategoria" 

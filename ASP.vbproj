@@ -114,6 +114,7 @@
     <Content Include="images\sis.jpg" />
     <Content Include="images\wow_logo.jpg" />
     <Content Include="images\wprogress.jpg" />
+    <Content Include="obslugaBazy\obs.aspx" />
     <Content Include="obslugaKoszyka\potwierdzZamow.aspx" />
     <Content Include="obslugaKoszyka\wyswietlKoszyk.aspx" />
     <Content Include="Scripts\dodaj.js" />
@@ -213,6 +214,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="obslugaBazy\obs.aspx.designer.vb">
+      <DependentUpon>obs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="obslugaBazy\obs.aspx.vb">
+      <DependentUpon>obs.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="obslugaKoszyka\potwierdzZamow.aspx.designer.vb">
       <DependentUpon>potwierdzZamow.aspx</DependentUpon>

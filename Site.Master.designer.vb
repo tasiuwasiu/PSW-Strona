@@ -77,6 +77,15 @@ Partial Public Class Site
     Protected WithEvents linkKoszyk As Global.System.Web.UI.WebControls.HyperLink
 
     '''<summary>
+    '''linkForm control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents linkForm As Global.System.Web.UI.WebControls.HyperLink
+
+    '''<summary>
     '''MainContent control.
     '''</summary>
     '''<remarks>
