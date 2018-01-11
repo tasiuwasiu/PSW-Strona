@@ -114,6 +114,8 @@
     <Content Include="images\sis.jpg" />
     <Content Include="images\wow_logo.jpg" />
     <Content Include="images\wprogress.jpg" />
+    <Content Include="obslugaBazy\dodajItem.aspx" />
+    <Content Include="obslugaBazy\modyfItem.aspx" />
     <Content Include="obslugaBazy\obs.aspx" />
     <Content Include="obslugaKoszyka\potwierdzZamow.aspx" />
     <Content Include="obslugaKoszyka\wyswietlKoszyk.aspx" />
@@ -215,6 +217,20 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="obslugaBazy\dodajItem.aspx.designer.vb">
+      <DependentUpon>dodajItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="obslugaBazy\dodajItem.aspx.vb">
+      <DependentUpon>dodajItem.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="obslugaBazy\modyfItem.aspx.designer.vb">
+      <DependentUpon>modyfItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="obslugaBazy\modyfItem.aspx.vb">
+      <DependentUpon>modyfItem.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="obslugaBazy\obs.aspx.designer.vb">
       <DependentUpon>obs.aspx</DependentUpon>
     </Compile>
@@ -280,6 +296,7 @@
     </None>
     <Content Include="Site.Master" />
     <Content Include="Web.sitemap" />
+    <Content Include="obslugaBazy\Web.config" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
