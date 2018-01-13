@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <form id="form1" runat="server">
-<div style="margin-left: 7%">
+<div style="margin-left: 7%; background: rgba(255, 255, 255, 0.75)">
     <h1>
         <asp:Label ID="Label1" runat="server" Text="Modyfikuj przedmiot"></asp:Label>
     </h1>
@@ -36,7 +36,10 @@
     </p>
     <p class="style1">
         <asp:Button ID="Button1" runat="server" Text="DODAJ" />
+        <asp:Button ID="butUs" runat="server" Text="USUŃ" />
     </p>
+
+    <input type="submit" Value="Wyloguj" runat="server" id="cmdSignOut">
 </div>
 </form>
 </asp:Content>

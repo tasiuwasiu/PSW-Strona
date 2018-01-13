@@ -115,6 +115,7 @@
     <Content Include="images\wow_logo.jpg" />
     <Content Include="images\wprogress.jpg" />
     <Content Include="obslugaBazy\dodajItem.aspx" />
+    <Content Include="obslugaBazy\Logon.aspx" />
     <Content Include="obslugaBazy\modyfItem.aspx" />
     <Content Include="obslugaBazy\obs.aspx" />
     <Content Include="obslugaKoszyka\potwierdzZamow.aspx" />
@@ -222,6 +223,13 @@
     </Compile>
     <Compile Include="obslugaBazy\dodajItem.aspx.vb">
       <DependentUpon>dodajItem.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="obslugaBazy\Logon.aspx.designer.vb">
+      <DependentUpon>Logon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="obslugaBazy\Logon.aspx.vb">
+      <DependentUpon>Logon.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="obslugaBazy\modyfItem.aspx.designer.vb">

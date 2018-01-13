@@ -86,6 +86,24 @@ Partial Public Class Site
     Protected WithEvents linkForm As Global.System.Web.UI.WebControls.HyperLink
 
     '''<summary>
+    '''linkMod control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents linkMod As Global.System.Web.UI.WebControls.HyperLink
+
+    '''<summary>
+    '''linkDod control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents linkDod As Global.System.Web.UI.WebControls.HyperLink
+
+    '''<summary>
     '''MainContent control.
     '''</summary>
     '''<remarks>

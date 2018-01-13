@@ -93,4 +93,22 @@ Partial Public Class modyfItem
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents Button1 As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''butUs control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents butUs As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''cmdSignOut control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents cmdSignOut As Global.System.Web.UI.HtmlControls.HtmlInputSubmit
 End Class

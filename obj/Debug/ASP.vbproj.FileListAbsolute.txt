@@ -1,11 +1,3 @@
-C:\Users\Administrator\Desktop\Strona\ASP\obj\Debug\ASP.Resources.resources
-C:\Users\Administrator\Desktop\Strona\ASP\obj\Debug\ASP.vbproj.GenerateResource.Cache
-C:\Users\Administrator\Desktop\Strona\ASP\bin\ASP.dll
-C:\Users\Administrator\Desktop\Strona\ASP\bin\ASP.pdb
-C:\Users\Administrator\Desktop\Strona\ASP\bin\ASP.xml
-C:\Users\Administrator\Desktop\Strona\ASP\obj\Debug\ASP.dll
-C:\Users\Administrator\Desktop\Strona\ASP\obj\Debug\ASP.xml
-C:\Users\Administrator\Desktop\Strona\ASP\obj\Debug\ASP.pdb
 C:\Users\Administrator\Desktop\Strona\bin\ASP.dll
 C:\Users\Administrator\Desktop\Strona\bin\ASP.pdb
 C:\Users\Administrator\Desktop\Strona\bin\ASP.xml
