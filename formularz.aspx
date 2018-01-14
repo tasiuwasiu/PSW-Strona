@@ -15,7 +15,7 @@
 
 	
 
-<div id="main" align="center" runat="server">
+<div id="main" align="center" runat="server" style="margin-left: 7%; background: rgba(255, 255, 255, 0.75)">
 
 <h1 style="text-align:center; padding-top: 20px">Formularz</h1>
 	<form method= "post" action = "formularz.aspx" runat="server">

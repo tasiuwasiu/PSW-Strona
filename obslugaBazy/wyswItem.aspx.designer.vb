@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class dodajItem
+Partial Public Class wyswItem
 
     '''<summary>
     '''form1 control.
@@ -32,67 +32,22 @@ Partial Public Class dodajItem
     Protected WithEvents Label1 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''TextBox1 control.
+    '''DropDownList1 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox1 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents DropDownList1 As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
-    '''RequiredFieldValidator1 control.
+    '''idLINQDataSource control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents RequiredFieldValidator1 As Global.System.Web.UI.WebControls.RequiredFieldValidator
-
-    '''<summary>
-    '''TextBox2 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents TextBox2 As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''TextBox3 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents TextBox3 As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''TextBox4 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents TextBox4 As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''TextBox5 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents TextBox5 As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''Button1 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Button1 As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents idLINQDataSource As Global.System.Web.UI.WebControls.LinqDataSource
 
     '''<summary>
     '''Label2 control.
@@ -111,6 +66,33 @@ Partial Public Class dodajItem
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents Label3 As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''Label4 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Label4 As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''Label5 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Label5 As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''Label6 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Label6 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''cmdSignOut control.

@@ -117,7 +117,7 @@
     <Content Include="obslugaBazy\dodajItem.aspx" />
     <Content Include="obslugaBazy\Logon.aspx" />
     <Content Include="obslugaBazy\modyfItem.aspx" />
-    <Content Include="obslugaBazy\obs.aspx" />
+    <Content Include="obslugaBazy\wyswItem.aspx" />
     <Content Include="obslugaKoszyka\potwierdzZamow.aspx" />
     <Content Include="obslugaKoszyka\wyswietlKoszyk.aspx" />
     <Content Include="Scripts\dodaj.js" />
@@ -239,11 +239,11 @@
       <DependentUpon>modyfItem.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="obslugaBazy\obs.aspx.designer.vb">
-      <DependentUpon>obs.aspx</DependentUpon>
+    <Compile Include="obslugaBazy\wyswItem.aspx.designer.vb">
+      <DependentUpon>wyswItem.aspx</DependentUpon>
     </Compile>
-    <Compile Include="obslugaBazy\obs.aspx.vb">
-      <DependentUpon>obs.aspx</DependentUpon>
+    <Compile Include="obslugaBazy\wyswItem.aspx.vb">
+      <DependentUpon>wyswItem.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="obslugaKoszyka\potwierdzZamow.aspx.designer.vb">
