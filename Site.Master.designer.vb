@@ -104,6 +104,15 @@ Partial Public Class Site
     Protected WithEvents linkDod As Global.System.Web.UI.WebControls.HyperLink
 
     '''<summary>
+    '''linkWys control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents linkWys As Global.System.Web.UI.WebControls.HyperLink
+
+    '''<summary>
     '''MainContent control.
     '''</summary>
     '''<remarks>

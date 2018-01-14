@@ -20,6 +20,7 @@
 		<div><asp:HyperLink ID="linkForm" runat="server" NavigateURL="~/formularz.aspx">Formularz</asp:HyperLink></div>
         <div><asp:HyperLink ID="linkMod" runat="server" NavigateURL="~/obslugaBazy/modyfItem.aspx">Modyfikuj</asp:HyperLink></div>
         <div><asp:HyperLink ID="linkDod" runat="server" NavigateURL="~/obslugaBazy/dodajItem.aspx">Dodaj</asp:HyperLink></div>
+        <div><asp:HyperLink ID="linkWys" runat="server" NavigateURL="~/obslugaBazy/wyswItem.aspx">Wyświetl</asp:HyperLink></div>
 		<div><p id="RNG" onclick="rng()">ROLL</p> </div>
 		<div>
 			<select id=selectList onchange="changeAppearance()">

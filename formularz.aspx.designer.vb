@@ -23,6 +23,42 @@ Partial Public Class Formularz
     Protected WithEvents main As Global.System.Web.UI.HtmlControls.HtmlGenericControl
 
     '''<summary>
+    '''form1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
+
+    '''<summary>
+    '''ToolkitScriptManager1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ToolkitScriptManager1 As Global.AjaxControlToolkit.ToolkitScriptManager
+
+    '''<summary>
+    '''TabContainer1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents TabContainer1 As Global.AjaxControlToolkit.TabContainer
+
+    '''<summary>
+    '''TabPanel1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents TabPanel1 As Global.AjaxControlToolkit.TabPanel
+
+    '''<summary>
     '''nazwa control.
     '''</summary>
     '''<remarks>
@@ -30,6 +66,24 @@ Partial Public Class Formularz
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents nazwa As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''RequiredFieldValidator2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents RequiredFieldValidator2 As Global.System.Web.UI.WebControls.RequiredFieldValidator
+
+    '''<summary>
+    '''RequiredFieldValidator2_ValidatorCalloutExtender control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents RequiredFieldValidator2_ValidatorCalloutExtender As Global.AjaxControlToolkit.ValidatorCalloutExtender
 
     '''<summary>
     '''haslo control.
@@ -41,6 +95,24 @@ Partial Public Class Formularz
     Protected WithEvents haslo As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
+    '''RequiredFieldValidator3 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents RequiredFieldValidator3 As Global.System.Web.UI.WebControls.RequiredFieldValidator
+
+    '''<summary>
+    '''RequiredFieldValidator3_ValidatorCalloutExtender control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents RequiredFieldValidator3_ValidatorCalloutExtender As Global.AjaxControlToolkit.ValidatorCalloutExtender
+
+    '''<summary>
     '''haslo2 control.
     '''</summary>
     '''<remarks>
@@ -50,6 +122,51 @@ Partial Public Class Formularz
     Protected WithEvents haslo2 As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
+    '''RequiredFieldValidator4 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents RequiredFieldValidator4 As Global.System.Web.UI.WebControls.RequiredFieldValidator
+
+    '''<summary>
+    '''RequiredFieldValidator4_ValidatorCalloutExtender control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents RequiredFieldValidator4_ValidatorCalloutExtender As Global.AjaxControlToolkit.ValidatorCalloutExtender
+
+    '''<summary>
+    '''CompareValidator1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents CompareValidator1 As Global.System.Web.UI.WebControls.CompareValidator
+
+    '''<summary>
+    '''CompareValidator1_ValidatorCalloutExtender control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents CompareValidator1_ValidatorCalloutExtender As Global.AjaxControlToolkit.ValidatorCalloutExtender
+
+    '''<summary>
+    '''TabPanel2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents TabPanel2 As Global.AjaxControlToolkit.TabPanel
+
+    '''<summary>
     '''email control.
     '''</summary>
     '''<remarks>
@@ -57,6 +174,42 @@ Partial Public Class Formularz
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents email As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''RequiredFieldValidator5 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents RequiredFieldValidator5 As Global.System.Web.UI.WebControls.RequiredFieldValidator
+
+    '''<summary>
+    '''RequiredFieldValidator5_ValidatorCalloutExtender control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents RequiredFieldValidator5_ValidatorCalloutExtender As Global.AjaxControlToolkit.ValidatorCalloutExtender
+
+    '''<summary>
+    '''RegularExpressionValidator2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents RegularExpressionValidator2 As Global.System.Web.UI.WebControls.RegularExpressionValidator
+
+    '''<summary>
+    '''RegularExpressionValidator2_ValidatorCalloutExtender control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents RegularExpressionValidator2_ValidatorCalloutExtender As Global.AjaxControlToolkit.ValidatorCalloutExtender
 
     '''<summary>
     '''tel control.
@@ -77,6 +230,15 @@ Partial Public Class Formularz
     Protected WithEvents RequiredFieldValidator1 As Global.System.Web.UI.WebControls.RequiredFieldValidator
 
     '''<summary>
+    '''RequiredFieldValidator1_ValidatorCalloutExtender control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents RequiredFieldValidator1_ValidatorCalloutExtender As Global.AjaxControlToolkit.ValidatorCalloutExtender
+
+    '''<summary>
     '''RegularExpressionValidator1 control.
     '''</summary>
     '''<remarks>
@@ -84,6 +246,24 @@ Partial Public Class Formularz
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents RegularExpressionValidator1 As Global.System.Web.UI.WebControls.RegularExpressionValidator
+
+    '''<summary>
+    '''RegularExpressionValidator1_ValidatorCalloutExtender control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents RegularExpressionValidator1_ValidatorCalloutExtender As Global.AjaxControlToolkit.ValidatorCalloutExtender
+
+    '''<summary>
+    '''UpdatePanel1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents UpdatePanel1 As Global.System.Web.UI.UpdatePanel
 
     '''<summary>
     '''btnSubmit control.
